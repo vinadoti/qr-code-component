@@ -31,11 +31,11 @@ Resultado final
 
 ## 💻 O desafio 
 
-O desafio era construir este componente de código QR e fazê-lo parecer o mais próximo possível do design.
+O desafio era construir este componente de código QR e fazê-lo parecer o mais próximo possível do design. 
 
 Entretanto, o modelo entregue aqui é diferente do modelo do design, eu peguei a ideia principal do desafio e mudei o layout.
 
-Para completar o desafio podia usar qualquer ferramenta para ajudá-lo, no caso utilei apenas o HTML E CSS para entrega do projeto.
+Para completar o desafio podia usar qualquer ferramenta para ajudá-lo, no caso utilizei apenas o HTML E CSS para entrega do projeto.
 
 ---
 
