@@ -1,0 +1,84 @@
+/* Global ===================== */
+
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
+
+/*===== VARIAVEIS CSS =====*/
+:root {
+
+    /*===== Cores =====*/
+    --first-color: #5D5FEF;
+    --second-color: #fff;
+
+    /*===== Fontes e tipografia =====*/
+    --body-font: 'Poppins', sans-serif;
+    --normal-font-size: 1rem;
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    background-color: var(--second-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+h1,
+p {
+    margin: 0;
+    text-align: center;
+    color: var(--first-color);
+}
+
+/*===== CARD =====*/
+
+.conteudo {
+    background-color: #5D5FEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93.6vh;
+}
+
+.card {
+    width: 700px;
+    padding: 4rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+    display: block;
+    margin: 40px auto;
+}
+
+.attribution {
+    background-color: var(--first-color);
+    color: var(--second-color);
+}
+
+a {
+    text-decoration: none;
+    background-color: var(--first-color);
+    color: yellow;
+}
+
+a:hover {
+    color: violet;
+}
+
+/* RESPONSIVO ===================== */
+@media (max-width: 800px) {
+    html {
+        font-size: 80.5%;
+    }
+}
